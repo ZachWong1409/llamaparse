@@ -14,7 +14,7 @@ const upload = multer({ dest: 'uploads/' });
 app.use(cors());
 app.use(express.static('public')); // Serve your HTML file from 'public' folder
 
-const LLAMAPARSE_API_KEY = 'llx-3xY3a5kloBeBTN95hIYtAShFnV8LxVjbUIhkkD9Wakjz2tY3'; // Replace with your actual API key
+const LLAMAPARSE_API_KEY = 'key_here'; // Replace with your actual API key
 const LLAMAPARSE_BASE_URL = 'https://api.cloud.llamaindex.ai';
 
 // Upload and parse endpoint
